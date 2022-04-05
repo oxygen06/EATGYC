@@ -466,9 +466,9 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
 
         if (cps <= 5) return '一头碰死吧';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
+        if (cps <= 8) return '就这？';
+        if (cps <= 10)  return '长颈鹿为你鼓掌';
+        if (cps <= 15) return '长颈鹿为你鼓掌';
         return '人？';
     }
 
